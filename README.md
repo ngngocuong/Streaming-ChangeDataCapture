@@ -2,9 +2,12 @@
 This project is about streaming change data capture by using AWS Kinesis and push data into histor Data Warehouse (storing historical data)
 # Objective
   From transaction database:
-  <img src="/image/transaction.png" alt="transaction" title="transaction">
+  
+  <img src="/image/transactiondataa.png" alt="transaction" title="transaction" width="800" height="250">
+  
+  
   We can build Data Warehouse(store historical data) using SCD type 2
-  <img src="/image/warehouse.png" alt="warehouse" title="warehouse">
+  <img src="/image/scd_type2.png" alt="warehouse" title="warehouse">
 ## Prerequisites
   1. AWS account to setup infrastructure
   2. <a href="https://docs.docker.com/get-docker" target="_blank">docker</a> build image to push lambda using container
@@ -50,5 +53,7 @@ The script will generate data and push data to AWS Dynamodb using **Boto3** but 
   
   # Contact
   Facebook: https://www.facebook.com/cuong.nguyenngoc.1612/
+  
+  
   Contact to me if you has any question about this project
   
